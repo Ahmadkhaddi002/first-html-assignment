@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #header img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 40%;
+            border-radius: 20px;
+        }
+
+        #nav {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px; /* Adjust the margin as needed */
+            border-top: solid 1px;
+    border-bottom: solid 1px;
+}
+        
+
+        #nav ul {
+            display: flex;
+            gap: 13px;
+            list-style: none;
+        }
+
+        #form {
+            text-align: center;
+            margin-top: 50px; /* Adjust the margin as needed */
+        }
+
+        .name {
+            margin: 17px;
+            width: 212px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+
+        #contact h1 {
+            margin-bottom: 20px; /* Adjust the margin as needed */
+        }
+        textarea{
+            margin: 20px;
+            width: 270px;
+            height: 90px;
+            margin-left: -2px;
+}
+a:hover{
+    background-color: brown;
+    font-size: 25px;}
+
+        #name1{
+            margin: 6px;
+            width: 214px;
+            margin-left: 1px;
+        }
+        #email{
+            margin-top: 8px;
+            width: 214px;
+        }
+        #footer{
+  
+  padding: 16px 41%;;
+  border-top: solid 1px;
+}
+    </style>
+</head>
+<body>
+    <div id="header">
+        <img src="name.jpg" alt="network error">
+    </div>
+
+    <div id="nav">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="about-us.html">About</a></li>
+            <li><a href="timing.html">Timings</a></li>
+            <li><a href="contact-us.html">Contact us</a></li>
+        </ul>
+    </div>
+
+    <div id="form">
+        <div id="contact"><h1>Contact Us</h1></div>
+
+        <div id="name" class="name">
+           
+          <input type="text" name="Name" id="name1" placeholder="Name"><br>
+         
+           <input type="text" name="Email" id="email" placeholder="Email"><br>
+
+            <textarea rows="4" cols="50" name="comment" form="usrform">Enter your Message Here... </textarea><br>
+            <input type="button" value="Send Message">
+        </div>
+    </div>
+    <div id="footer">
+        <span>copyright&copy;2021Umair's Cuisine</span>
+    </div>
+</body>
+</html>
